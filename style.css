@@ -1,0 +1,67 @@
+.root 
+{
+     -fx-background-image: url("4.jpg");
+}
+
+.text-input:hover
+{
+	-fx-background-color: #00FFFF;
+}
+
+.text-area .content:hover
+{
+    -fx-background-color:  #00FFFF ;
+}
+
+.button
+ {
+	-fx-background-radius: 20px;
+	-fx-font-size: 11pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover
+{
+    -fx-background-color: #00FFFF;
+    -fx-text-fill: black;
+}
+
+.choice-box .list-cell 
+{
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: black;
+}
+
+.choice-box
+{
+     -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-text-fill: black;
+    -fx-font-size: 11pt;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+   
+.choice-box .context-menu
+{
+   -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+   
+.label 
+{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill:#ffffff;
+}
+
+.label:hover
+{
+	-fx-text-fill: #00FFFF;
+}
