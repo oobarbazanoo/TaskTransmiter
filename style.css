@@ -8,6 +8,16 @@
 	-fx-background-color: #00FFFF;
 }
 
+#choice-box-menu-item:hover
+{     
+  -fx-background-color: #00FFFF;
+}
+
+#choice-box-menu-item:hover > .label
+{      
+  -fx-text-fill: black;
+}
+
 .text-area .content:hover
 {
     -fx-background-color:  #00FFFF ;
